@@ -1,0 +1,64 @@
+/* Estilo para a lista de registros */
+.record-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para cada item de registro */
+.record-item {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para os botões (editar, excluir, salvar, cancelar) */
+.edit-button,
+.delete-button,
+save-button,
+cancel-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Estilo específico para o botão de salvar */
+.save-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+/* Estilo específico para o botão de cancelar */
+.cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+/* Estilo para a etiqueta (label) */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Estilo para o campo de entrada (input) */
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Estilo para o campo de entrada (span) usado para exibir informações */
+span {
+    display: inline-block;
+    margin-top: 5px;
+    width: 100%;
+}
+
+/* Estilize o cabeçalho da lista de registros */
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
