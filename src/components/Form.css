@@ -1,0 +1,80 @@
+/* Estilo para o formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para cada grupo de formulário */
+.form-group {
+    margin: 10px 0;
+}
+
+/* Estilo para etiquetas (labels) */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Estilo para campos de entrada (inputs) */
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo para mensagens de erro */
+.error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Estilo para o botão de envio (Inserir) */
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilo para o botão de recomeço */
+.reset-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilo para o botão de recomeço */
+.reset-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
